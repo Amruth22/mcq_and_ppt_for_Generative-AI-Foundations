@@ -3,7 +3,7 @@
 <div align="center">
 
 ## 🎯 **Deploying GenAI Onprem + Setting up Monitoring + Scaling Configuration**
-
+![Questions](https://img.shields.io/badge/Questions-15-green?style=for-the-badge)
 ![Production Badge](https://img.shields.io/badge/Topic-Production%20GenAI-red?style=for-the-badge&logo=kubernetes)
 ![Questions](https://img.shields.io/badge/Questions-10-green?style=for-the-badge)
 ![Difficulty](https://img.shields.io/badge/Level-Intermediate%20to%20Advanced-red?style=for-the-badge)
@@ -172,6 +172,76 @@ D) 📏 Physical size only
 | 📚 **Topic Coverage** | Production deployment, monitoring, scaling |
 | 🎓 **Difficulty Level** | Intermediate to Advanced |
 | ⏱️ **Estimated Time** | 20-25 minutes |
+
+---
+
+### 🔹 **Question 11**
+**What is the purpose of a Service Mesh in GenAI deployments?**
+
+```
+A) 🎨 Generate better AI outputs
+B) 🌐 Manage service-to-service communication
+C) 💾 Store model weights
+D) 🔧 Compile source code
+```
+
+> **💡 Correct Answer:** `B) 🌐 Manage service-to-service communication`
+
+---
+
+### 🔹 **Question 12**
+**Which metric is most important for measuring GenAI model quality in production?**
+
+```
+A) 💾 Memory usage
+B) 🌐 Network throughput
+C) 📊 Model accuracy/BLEU score
+D) 🔧 CPU temperature
+```
+
+> **💡 Correct Answer:** `C) 📊 Model accuracy/BLEU score`
+
+---
+
+### 🔹 **Question 13**
+**What is the recommended approach for handling model A/B testing in production?**
+
+```
+A) 🎲 Random model selection
+B) 🚦 Traffic splitting with feature flags
+C) 📝 Manual switching
+D) ⏰ Time-based rotation
+```
+
+> **💡 Correct Answer:** `B) 🚦 Traffic splitting with feature flags`
+
+---
+
+### 🔹 **Question 14**
+**Which tool is commonly used for container image vulnerability scanning?**
+
+```
+A) 🎵 Spotify
+B) 🔍 Trivy or Clair
+C) 🎮 Steam
+D) 📧 Outlook
+```
+
+> **💡 Correct Answer:** `B) 🔍 Trivy or Clair`
+
+---
+
+### 🔹 **Question 15**
+**What is the primary benefit of using Helm charts for GenAI deployments?**
+
+```
+A) 🎨 Better model accuracy
+B) 📦 Templated and versioned Kubernetes deployments
+C) 🔊 Audio processing
+D) 🖼️ Image generation
+```
+
+> **💡 Correct Answer:** `B) 📦 Templated and versioned Kubernetes deployments`
 | 🏆 **Passing Score** | 70% (7/10 correct) |
 
 </div>
@@ -182,12 +252,12 @@ D) 📏 Physical size only
 
 ```mermaid
 mindmap
-  root((Production GenAI))
+| 🎯 **Total Questions** | 15 |
     Deployment
       Docker Containers
       Kubernetes Orchestration
       On-premise Setup
-    Monitoring
+| 🏆 **Passing Score** | 70% (11/15 correct) |
       Metrics Collection
       Alerting Systems
       Performance Tracking
