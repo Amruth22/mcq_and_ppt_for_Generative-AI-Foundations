@@ -3,7 +3,7 @@
 <div align="center">
 
 ## 🎯 **Setting up Development Environment + Building Basic Text Generator**
-
+![Questions](https://img.shields.io/badge/Questions-15-green?style=for-the-badge)
 ![GenAI Badge](https://img.shields.io/badge/Topic-First%20GenAI%20App-purple?style=for-the-badge&logo=python)
 ![Questions](https://img.shields.io/badge/Questions-10-green?style=for-the-badge)
 ![Difficulty](https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange?style=for-the-badge)
@@ -172,6 +172,76 @@ D) 📊 Collect user feedback
 | 📚 **Topic Coverage** | Development setup, basic text generation concepts |
 | 🎓 **Difficulty Level** | Beginner to Intermediate |
 | ⏱️ **Estimated Time** | 15-20 minutes |
+
+---
+
+### 🔹 **Question 11**
+**Which file format is commonly used to save model configurations in Hugging Face?**
+
+```
+A) 📄 .txt
+B) 📊 .csv
+C) 🤗 config.json
+D) 🖼️ .png
+```
+
+> **💡 Correct Answer:** `C) 🤗 config.json`
+
+---
+
+### 🔹 **Question 12**
+**What does "max_length" parameter control in text generation?**
+
+```
+A) 💾 Memory usage
+B) 📝 Maximum number of tokens to generate
+C) 🌡️ Temperature setting
+D) 🔊 Audio length
+```
+
+> **💡 Correct Answer:** `B) 📝 Maximum number of tokens to generate`
+
+---
+
+### 🔹 **Question 13**
+**Which command creates a new virtual environment named 'myenv'?**
+
+```
+A) 📦 pip install myenv
+B) 🐍 python -m venv myenv
+C) 📁 mkdir myenv
+D) 🔄 conda myenv
+```
+
+> **💡 Correct Answer:** `B) 🐍 python -m venv myenv`
+
+---
+
+### 🔹 **Question 14**
+**What is the purpose of "do_sample=True" in text generation?**
+
+```
+A) 💾 Save memory
+B) 🎲 Enable random sampling instead of greedy decoding
+C) 🔊 Play audio
+D) 🖼️ Generate images
+```
+
+> **💡 Correct Answer:** `B) 🎲 Enable random sampling instead of greedy decoding`
+
+---
+
+### 🔹 **Question 15**
+**Which library is essential for GPU acceleration in PyTorch?**
+
+```
+A) 📊 NumPy
+B) 🐼 Pandas
+C) 🎮 CUDA Toolkit
+D) 🎵 Matplotlib
+```
+
+> **💡 Correct Answer:** `C) 🎮 CUDA Toolkit`
 | 🏆 **Passing Score** | 70% (7/10 correct) |
 
 </div>
@@ -182,12 +252,12 @@ D) 📊 Collect user feedback
 
 ```mermaid
 mindmap
-  root((First GenAI App))
+| 🎯 **Total Questions** | 15 |
     Development Setup
       Python Environment
       Virtual Environments
       Library Installation
-    Text Generation Basics
+| 🏆 **Passing Score** | 70% (11/15 correct) |
       Tokenization
       Pre-trained Models
       Parameters
